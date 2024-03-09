@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jamie Archers - Website on Hugo Starter Site</title>
+    <title>JamiA97 - Website on Hugo Starter Site</title>
     <link>https://hugo-starter-site.netlify.app/</link>
-    <description>Recent content in Jamie Archers - Website on Hugo Starter Site</description>
+    <description>Recent content in JamiA97 - Website on Hugo Starter Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>judah@joodaloop.com (Judah)</managingEditor>
     <webMaster>judah@joodaloop.com (Judah)</webMaster>
     <copyright>No copyright.</copyright><atom:link href="https://hugo-starter-site.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Essay</title>
+      <link>https://hugo-starter-site.netlify.app/essays/an_essay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/essays/an_essay/</guid>
+      <description>Not really</description>
+    </item>
+    
     <item>
       <title>Colophon</title>
       <link>https://hugo-starter-site.netlify.app/colophon/</link>
