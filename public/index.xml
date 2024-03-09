@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jamie Archers - Website on Hugo Starter Site</title>
+    <link>https://hugo-starter-site.netlify.app/</link>
+    <description>Recent content in Jamie Archers - Website on Hugo Starter Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>judah@joodaloop.com (Judah)</managingEditor>
+    <webMaster>judah@joodaloop.com (Judah)</webMaster>
+    <copyright>No copyright.</copyright><atom:link href="https://hugo-starter-site.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Colophon</title>
+      <link>https://hugo-starter-site.netlify.app/colophon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/colophon/</guid>
+      <description>Hosted on Github, published with Netlify (free tier).</description>
+    </item>
+    
+    <item>
+      <title>How to refresh browser cache</title>
+      <link>https://hugo-starter-site.netlify.app/notebook/google_cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/notebook/google_cache/</guid>
+      <description>Sometimes you need to clear the google cache:
+Press ctrl+F5</description>
+    </item>
+    
+    <item>
+      <title>My first Post</title>
+      <link>https://hugo-starter-site.netlify.app/blog/jamie_first_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/blog/jamie_first_post/</guid>
+      <description>Why bother ? Inspired to come back to the internet and try a static website one last time. An attempt to write things down. Perhaps a journal, a blog. Perhaps musings on the future. Interests in many things, fiction, engineering, computing, science, history and art.</description>
+    </item>
+    
+    <item>
+      <title>Notebooks on the internet</title>
+      <link>https://hugo-starter-site.netlify.app/notebook/notebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/notebook/notebooks/</guid>
+      <description>It might be useful to keep notebook on the internet.</description>
+    </item>
+    
+  </channel>
+</rss>

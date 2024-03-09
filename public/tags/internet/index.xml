@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>internet on Hugo Starter Site</title>
+    <link>https://hugo-starter-site.netlify.app/tags/internet/</link>
+    <description>Recent content in internet on Hugo Starter Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>judah@joodaloop.com (Judah)</managingEditor>
+    <webMaster>judah@joodaloop.com (Judah)</webMaster>
+    <copyright>No copyright.</copyright><atom:link href="https://hugo-starter-site.netlify.app/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to refresh browser cache</title>
+      <link>https://hugo-starter-site.netlify.app/notebook/google_cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/notebook/google_cache/</guid>
+      <description>Sometimes you need to clear the google cache:
+Press ctrl+F5</description>
+    </item>
+    
+    <item>
+      <title>Notebooks on the internet</title>
+      <link>https://hugo-starter-site.netlify.app/notebook/notebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/notebook/notebooks/</guid>
+      <description>It might be useful to keep notebook on the internet.</description>
+    </item>
+    
+  </channel>
+</rss>

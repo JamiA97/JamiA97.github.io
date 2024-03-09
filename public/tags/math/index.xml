@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on Hugo Starter Site</title>
+    <link>https://hugo-starter-site.netlify.app/tags/math/</link>
+    <description>Recent content in math on Hugo Starter Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>judah@joodaloop.com (Judah)</managingEditor>
+    <webMaster>judah@joodaloop.com (Judah)</webMaster>
+    <copyright>No copyright.</copyright><atom:link href="https://hugo-starter-site.netlify.app/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statstics 101</title>
+      <link>https://hugo-starter-site.netlify.app/notebook/statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/notebook/statistics/</guid>
+      <description>Taken together (diminishing information from data, diminishing decision-making value from information), the marginal decision-making value of data drops rapidly. Which is to say, a majority of the decision-making value from “Big Data” can be gleaned from just a small subset.
+In fact, that is the entire point of statistics — figuring out how much information can be derived from a sample of data randomly chosen from a larger population.</description>
+    </item>
+    
+  </channel>
+</rss>
