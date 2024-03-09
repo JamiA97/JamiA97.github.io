@@ -29,6 +29,17 @@ Press ctrl+F5</description>
     </item>
     
     <item>
+      <title>How to update the site from git</title>
+      <link>https://hugo-starter-site.netlify.app/notebook/update_website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>judah@joodaloop.com (Judah)</author>
+      <guid>https://hugo-starter-site.netlify.app/notebook/update_website/</guid>
+      <description>git add .
+git commit -m &amp;ldquo;Some text&amp;rdquo;
+git push origin master</description>
+    </item>
+    
+    <item>
       <title>My first Post</title>
       <link>https://hugo-starter-site.netlify.app/blog/jamie_first_post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
