@@ -1,3 +1,8 @@
+ @charset "UTF-8";
+ 
+ /* Import Open Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ 
   @font-face {
     font-family: 'Raleway';
     font-style: normal;
@@ -7,7 +12,8 @@
   }
 
   :root{
-    --font-family: system-ui;
+    /*--font-family: system-ui;*/
+    --font-family: 'Open Sans', sans-serif;
     --background: #FFFFEE;
     --text: #222;
   }
@@ -18,7 +24,8 @@
     margin: 0%;
     font-family: var(--font-family);
     color: var(--text);
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 400;
     min-height: 100vh;
     position: relative;
   }
