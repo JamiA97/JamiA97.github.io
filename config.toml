@@ -1,6 +1,6 @@
 baseURL = "https://jamia97.github.io/"
 languageCode = "en-us"
-title = "Hugo Starter Site"
+title = "JamiA97"
 copyright = "No copyright."
 
 rssLimit = 20
@@ -12,11 +12,11 @@ canonifyURLs = true
   tag = 'tags'
   
 [author]
-	name = "Judah"
-	email = "judah@joodaloop.com"
+	name = "JamiA97"
+	email = "example@mail.com"
 
 [params]
-  description = "A better starting point for building Hugo sites."
+  description = "This is my first site"
 
 [markup.goldmark.renderer]
     unsafe = "true"
