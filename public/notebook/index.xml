@@ -2,42 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notebook on JamiA97</title>
-    <link>https://jamia97.github.io/notebook/</link>
+    <link>http://localhost:1313/notebook/</link>
     <description>Recent content in Notebook on JamiA97</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>example@mail.com (JamiA97)</managingEditor>
     <webMaster>example@mail.com (JamiA97)</webMaster>
-    <copyright>No copyright.</copyright><atom:link href="https://jamia97.github.io/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>No copyright.</copyright>
+    <atom:link href="http://localhost:1313/notebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to refresh browser cache</title>
-      <link>https://jamia97.github.io/notebook/google_cache/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>example@mail.com (JamiA97)</author>
-      <guid>https://jamia97.github.io/notebook/google_cache/</guid>
-      <description>Sometimes you need to clear the google cache:
-Press ctrl+F5</description>
+      <link>http://localhost:1313/notebook/google_cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <guid>http://localhost:1313/notebook/google_cache/</guid>
+      <description>Sometimes you need to clear the google cache:&#xA;Press ctrl+F5</description>
     </item>
-    
     <item>
       <title>How to update the site from git</title>
-      <link>https://jamia97.github.io/notebook/update_website/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>example@mail.com (JamiA97)</author>
-      <guid>https://jamia97.github.io/notebook/update_website/</guid>
-      <description>git add .
-git commit -m &amp;ldquo;Some text&amp;rdquo;
-git push origin master</description>
+      <link>http://localhost:1313/notebook/update_website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <guid>http://localhost:1313/notebook/update_website/</guid>
+      <description>git add .&#xA;git commit -m &amp;ldquo;Some text&amp;rdquo;&#xA;git push origin master</description>
     </item>
-    
     <item>
       <title>Notebooks on the internet</title>
-      <link>https://jamia97.github.io/notebook/notebooks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>example@mail.com (JamiA97)</author>
-      <guid>https://jamia97.github.io/notebook/notebooks/</guid>
+      <link>http://localhost:1313/notebook/notebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <guid>http://localhost:1313/notebook/notebooks/</guid>
       <description>It might be useful to keep notebook on the internet.</description>
     </item>
-    
+    <item>
+      <title>Reminder how to start hugo</title>
+      <link>http://localhost:1313/notebook/start_hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <guid>http://localhost:1313/notebook/start_hugo/</guid>
+      <description>Simply type &amp;lsquo;hugo server&amp;rsquo; in the command window</description>
+    </item>
   </channel>
 </rss>
