@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> Simple Web App Development Tech Stack • JamiA97 </title>
+        <meta name="description" content=" This is my first site">
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180"  href="http://localhost:1313/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="16x16"  href="http://localhost:1313/favicon.ico"> 
+
+        
+        <meta property="og:url" content="http://localhost:1313/" />
+        <meta property="og:title" content="Simple Web App Development Tech Stack" />
+        <meta property="og:description" content=" This is my first site" />
+        <meta property="og:image" content="http://localhost:1313//card.jpg" />
+
+
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:creator" content="@">
+        <meta name="twitter:title" content="Simple Web App Development Tech Stack">
+        <meta name="twitter:description" content=" This is my first site" />
+        <meta name="twitter:image" content="http://localhost:1313//card.jpg" />
+
+        <link rel="alternate" type="application/rss+xml" 
+          title="RSS Feed for JamiA97." 
+          href="http://localhost:1313/index.xml" />
+        <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.css" />
+</head>
+
+<body>    
+        <header>
+	<h1> Simple Web App Development Tech Stack </h1>
+	<nav> 
+		<a href='http://localhost:1313/'>/home</a>
+		<a href='http://localhost:1313/blog'>/blog</a>
+		<a href='http://localhost:1313/notebook'>/notebook</a>
+		<a href='http://localhost:1313/essays'>/essays</a>
+		<a href='http://localhost:1313/colophon'>/colophon</a>
+	</nav>
+</header>
+
+<main>
+        <article>
+
+      <h1 id="simple-web-app-development-tech-stack">Simple Web App Development Tech Stack</h1>
+<h2 id="stack-components">Stack Components</h2>
+<ol>
+<li><strong>Use vanilla HTML</strong></li>
+<li><strong>Use JavaScript</strong> - Access external libraries as needed.</li>
+<li><strong>Use SQLite</strong> for database actions.</li>
+<li><strong>Use Node.js</strong> for server actions.</li>
+<li><strong>Use Git/GitHub</strong> for version control.</li>
+</ol>
+<h3 id="project-structure">Project Structure</h3>
+<pre tabindex="0"><code>Project
+├── package.json
+├── package-lock.json
+├── public
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+├── database.db
+└── server.js
+</code></pre><p>Testing will be done locally on an Ubuntu laptop using Firefox or Chrome. Files will be edited using VSCode.</p>
+<h2 id="git-setup-guide">Git Setup Guide</h2>
+<h3 id="step-1-install-git">Step 1: Install Git</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt install git
+</span></span></code></pre></div><p>Verify installation:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
+</span></span></code></pre></div><h3 id="step-2-configure-git">Step 2: Configure Git</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global user.name <span style="color:#e6db74">&#34;Your Name&#34;</span>
+</span></span><span style="display:flex;"><span>git config --global user.email <span style="color:#e6db74">&#34;your.email@example.com&#34;</span>
+</span></span></code></pre></div><h3 id="step-3-initialize-git-in-your-project-directory">Step 3: Initialize Git in Your Project Directory</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /path/to/your/project
+</span></span><span style="display:flex;"><span>git init
+</span></span></code></pre></div><h3 id="step-4-create-a-gitignore-file">Step 4: Create a <code>.gitignore</code> File</h3>
+<p>Add a <code>.gitignore</code> file to prevent unwanted files from being committed.
+Example:</p>
+<pre tabindex="0"><code>node_modules/
+*.log
+database.db
+.env
+</code></pre><p>Add and commit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>touch .gitignore
+</span></span><span style="display:flex;"><span>git add .gitignore
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Add .gitignore&#34;</span>
+</span></span></code></pre></div><h3 id="step-5-create-a-new-repository-on-github">Step 5: Create a New Repository on GitHub</h3>
+<ol>
+<li>Create a new repository on GitHub.</li>
+<li>Copy the repository URL (HTTPS or SSH).</li>
+</ol>
+<h3 id="step-6-connect-local-repo-to-github">Step 6: Connect Local Repo to GitHub</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/your-username/your-repo.git
+</span></span></code></pre></div><h3 id="step-7-first-commit-and-push">Step 7: First Commit and Push</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
+</span></span><span style="display:flex;"><span>git push -u origin master
+</span></span></code></pre></div><h3 id="step-8-git-workflow">Step 8: Git Workflow</h3>
+<ol>
+<li>
+<p>Check status:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
+</span></span></code></pre></div></li>
+<li>
+<p>Stage changes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add &lt;file&gt;
+</span></span></code></pre></div></li>
+<li>
+<p>Commit changes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Commit message&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p>Push changes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="branching">Branching</h3>
+<ul>
+<li>
+<p>Create a new branch:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout -b new-feature-branch
+</span></span></code></pre></div></li>
+<li>
+<p>Merge branch:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout master
+</span></span><span style="display:flex;"><span>git merge new-feature-branch
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div></li>
+<li>
+<p>Pull updates:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull
+</span></span></code></pre></div></li>
+</ul>
+<hr>
+<p>This guide helps set up a simple web app development environment using Node.js, SQLite, Git, and GitHub.</p>
+
+ 
+
+        </article>      
+</main>
+        <footer>
+	No copyright.
+</footer>
+</body>
+</html>

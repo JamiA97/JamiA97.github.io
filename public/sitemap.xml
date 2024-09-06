@@ -28,6 +28,8 @@
   </url><url>
     <loc>http://localhost:1313/notebook/start_hugo/</loc>
   </url><url>
+    <loc>http://localhost:1313/notebook/simple_web_app_git_setup_guide/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

@@ -45,5 +45,12 @@
       <guid>http://localhost:1313/notebook/start_hugo/</guid>
       <description>Simply type &amp;lsquo;hugo server&amp;rsquo; in the command window</description>
     </item>
+    <item>
+      <title>Simple Web App Development Tech Stack</title>
+      <link>http://localhost:1313/notebook/simple_web_app_git_setup_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <guid>http://localhost:1313/notebook/simple_web_app_git_setup_guide/</guid>
+      <description>Simple Web App Development Tech Stack Stack Components Use vanilla HTML Use JavaScript - Access external libraries as needed. Use SQLite for database actions. Use Node.js for server actions. Use Git/GitHub for version control. Project Structure Project ├── package.json ├── package-lock.json ├── public │ ├── index.html │ ├── script.js │ └── styles.css ├── database.db └── server.js Testing will be done locally on an Ubuntu laptop using Firefox or Chrome. Files will be edited using VSCode.</description>
+    </item>
   </channel>
 </rss>
