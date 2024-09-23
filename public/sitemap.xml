@@ -2,34 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/essays/an_essay/</loc>
+    <loc>https://jamia97.github.io/essays/an_essay/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://jamia97.github.io/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jamia97.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/colophon/</loc>
+    <loc>https://jamia97.github.io/colophon/</loc>
   </url><url>
-    <loc>http://localhost:1313/essays/</loc>
+    <loc>https://jamia97.github.io/essays/</loc>
   </url><url>
-    <loc>http://localhost:1313/notebook/google_cache/</loc>
+    <loc>https://jamia97.github.io/notebook/google_cache/</loc>
   </url><url>
-    <loc>http://localhost:1313/notebook/update_website/</loc>
+    <loc>https://jamia97.github.io/notebook/update_website/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/internet/</loc>
+    <loc>https://jamia97.github.io/tags/internet/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jamia97.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/jamie_first_post/</loc>
+    <loc>https://jamia97.github.io/blog/jamie_first_post/</loc>
   </url><url>
-    <loc>http://localhost:1313/notebook/</loc>
+    <loc>https://jamia97.github.io/notebook/</loc>
   </url><url>
-    <loc>http://localhost:1313/notebook/notebooks/</loc>
+    <loc>https://jamia97.github.io/notebook/notebooks/</loc>
   </url><url>
-    <loc>http://localhost:1313/notebook/start_hugo/</loc>
+    <loc>https://jamia97.github.io/notebook/start_hugo/</loc>
   </url><url>
-    <loc>http://localhost:1313/notebook/simple_web_app_git_setup_guide/</loc>
+    <loc>https://jamia97.github.io/notebook/simple_web_app_git_setup_guide/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jamia97.github.io/tags/</loc>
+  </url><url>
+    <loc>https://jamia97.github.io/notebook/using_vim/</loc>
   </url>
 </urlset>
