@@ -1,22 +1,17 @@
-
 ---
 title: "Quick post on Bayes Theorem"
 tags: [probability]
 ---
-  
+
 # Bayes Theorem  
-  
 
-
-$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$
+$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
 
 Where:
-- P(A|B) : The probability of event \( A \) occurring given that \( B \) has occurred (this is called the "posterior").
-- P(B|A) : The probability of event \( B \) occurring given that \( A \) has occurred (called the "likelihood").
-- P(A) : The prior probability of event \( A \) occurring (before we know \( B \)).
-- P(B) : The total probability of event \( B \) occurring (the normalizing constant, which accounts for all possible ways \( B \) could happen).
-
-This formula allows you to update your belief about the probability of \( A \) after knowing that \( B \) has occurred. It’s the foundation of Bayesian reasoning.
+- \( P(A|B) \): The probability of event \( A \) occurring given that \( B \) has occurred (this is called the "posterior").
+- \( P(B|A) \): The probability of event \( B \) occurring given that \( A \) has occurred (called the "likelihood").
+- \( P(A) \): The prior probability of event \( A \) occurring (before we know \( B \)).
+- \( P(B) \): The total probability of event \( B \) occurring (the normalizing constant, which accounts for all possible ways \( B \) could happen).
 
 ### Scenario:
 

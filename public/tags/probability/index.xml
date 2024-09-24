@@ -15,7 +15,7 @@
       <link>https://jamia97.github.io/notebook/bayes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
       <guid>https://jamia97.github.io/notebook/bayes/</guid>
-      <description>Bayes Theorem $P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$&#xA;Where:&#xA;P(A|B) : The probability of event ( A ) occurring given that ( B ) has occurred (this is called the &amp;ldquo;posterior&amp;rdquo;). P(B|A) : The probability of event ( B ) occurring given that ( A ) has occurred (called the &amp;ldquo;likelihood&amp;rdquo;). P(A) : The prior probability of event ( A ) occurring (before we know ( B )). P(B) : The total probability of event ( B ) occurring (the normalizing constant, which accounts for all possible ways ( B ) could happen).</description>
+      <description>Bayes Theorem $$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$&#xA;Where:&#xA;( P(A|B) ): The probability of event ( A ) occurring given that ( B ) has occurred (this is called the &amp;ldquo;posterior&amp;rdquo;). ( P(B|A) ): The probability of event ( B ) occurring given that ( A ) has occurred (called the &amp;ldquo;likelihood&amp;rdquo;). ( P(A) ): The prior probability of event ( A ) occurring (before we know ( B )). ( P(B) ): The total probability of event ( B ) occurring (the normalizing constant, which accounts for all possible ways ( B ) could happen).</description>
     </item>
   </channel>
 </rss>
