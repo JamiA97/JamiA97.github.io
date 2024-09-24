@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title> Quick post on Bayes Theorem • JamiA97 </title>
+        <meta name="description" content=" This is my first site">
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180"  href="https://jamia97.github.io/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="https://jamia97.github.io/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="16x16"  href="https://jamia97.github.io/favicon.ico"> 
+
+        
+        <meta property="og:url" content="https://jamia97.github.io/" />
+        <meta property="og:title" content="Quick post on Bayes Theorem" />
+        <meta property="og:description" content=" This is my first site" />
+        <meta property="og:image" content="https://jamia97.github.io//card.jpg" />
+
+
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:creator" content="@">
+        <meta name="twitter:title" content="Quick post on Bayes Theorem">
+        <meta name="twitter:description" content=" This is my first site" />
+        <meta name="twitter:image" content="https://jamia97.github.io//card.jpg" />
+
+        <link rel="alternate" type="application/rss+xml" 
+          title="RSS Feed for JamiA97." 
+          href="https://jamia97.github.io/index.xml" />
+        <link rel="stylesheet" type="text/css" href="https://jamia97.github.io/css/styles.css" />
+</head>
+
+<body>    
+        <header>
+	<h1> Quick post on Bayes Theorem </h1>
+	<nav> 
+		<a href='https://jamia97.github.io/'>/home</a>
+		<a href='https://jamia97.github.io/blog'>/blog</a>
+		<a href='https://jamia97.github.io/notebook'>/notebook</a>
+		<a href='https://jamia97.github.io/essays'>/essays</a>
+		<a href='https://jamia97.github.io/colophon'>/colophon</a>
+	</nav>
+</header>
+
+<main>
+        <article>
+
+      <h1 id="bayes-theorem">Bayes Theorem</h1>
+<p>$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$</p>
+<p>Where:</p>
+<ul>
+<li>P(A|B) : The probability of event ( A ) occurring given that ( B ) has occurred (this is called the &ldquo;posterior&rdquo;).</li>
+<li>P(B|A) : The probability of event ( B ) occurring given that ( A ) has occurred (called the &ldquo;likelihood&rdquo;).</li>
+<li>P(A) : The prior probability of event ( A ) occurring (before we know ( B )).</li>
+<li>P(B) : The total probability of event ( B ) occurring (the normalizing constant, which accounts for all possible ways ( B ) could happen).</li>
+</ul>
+<p>This formula allows you to update your belief about the probability of ( A ) after knowing that ( B ) has occurred. It’s the foundation of Bayesian reasoning.</p>
+<h3 id="scenario">Scenario:</h3>
+<ul>
+<li><strong>( A )</strong>: Your friend responds quickly to a text message (within 5 minutes).</li>
+<li><strong>( B )</strong>: You sent a message in the morning.</li>
+</ul>
+<p>You want to know the probability that your friend will respond quickly (( A )) given that you sent the message in the morning (( B )).</p>
+<h3 id="given-data-realistic-assumptions">Given Data (Realistic Assumptions):</h3>
+<ol>
+<li><strong>( P(A) )</strong>: The probability that your friend responds quickly to a message in general is 20%, so ( P(A) = 0.20 ).</li>
+<li><strong>( P(B|A) )</strong>: If your friend responds quickly, there&rsquo;s a 70% chance that it happens in the morning. So, ( P(B|A) = 0.70 ).</li>
+<li><strong>( P(B) )</strong>: The general probability that you send a message in the morning is 50%, so ( P(B) = 0.50 ).</li>
+</ol>
+<h3 id="question">Question:</h3>
+<p>What is the probability that your friend will respond quickly, given that you sent the message in the morning? We are looking for ( P(A|B) ).</p>
+<h3 id="apply-bayes-theorem">Apply Bayes&rsquo; Theorem:</h3>
+<p>$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$</p>
+<p>Substituting the known values:</p>
+<p>$$
+P(A|B) = \frac{0.70 \cdot 0.20}{0.50}
+$$</p>
+<p>$$
+P(A|B) = \frac{0.14}{0.50} = 0.28
+$$</p>
+<h3 id="conclusion">Conclusion:</h3>
+<p>The probability that your friend will respond quickly, given that you sent the message in the morning, is <strong>28%</strong>.</p>
+
+ 
+
+        </article>      
+</main>
+        <footer>
+	No copyright.
+</footer>
+</body>
+</html>

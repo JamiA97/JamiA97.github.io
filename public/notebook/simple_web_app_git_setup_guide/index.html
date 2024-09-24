@@ -69,16 +69,16 @@
 </code></pre><p>Testing will be done locally on an Ubuntu laptop using Firefox or Chrome. Files will be edited using VSCode.</p>
 <h2 id="git-setup-guide">Git Setup Guide</h2>
 <h3 id="step-1-install-git">Step 1: Install Git</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
-</span></span><span style="display:flex;"><span>sudo apt install git
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install git
 </span></span></code></pre></div><p>Verify installation:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git --version
 </span></span></code></pre></div><h3 id="step-2-configure-git">Step 2: Configure Git</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global user.name <span style="color:#e6db74">&#34;Your Name&#34;</span>
-</span></span><span style="display:flex;"><span>git config --global user.email <span style="color:#e6db74">&#34;your.email@example.com&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Your Name&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global user.email <span class="s2">&#34;your.email@example.com&#34;</span>
 </span></span></code></pre></div><h3 id="step-3-initialize-git-in-your-project-directory">Step 3: Initialize Git in Your Project Directory</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /path/to/your/project
-</span></span><span style="display:flex;"><span>git init
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> /path/to/your/project
+</span></span><span class="line"><span class="cl">git init
 </span></span></code></pre></div><h3 id="step-4-create-a-gitignore-file">Step 4: Create a <code>.gitignore</code> File</h3>
 <p>Add a <code>.gitignore</code> file to prevent unwanted files from being committed.
 Example:</p>
@@ -87,54 +87,54 @@ Example:</p>
 database.db
 .env
 </code></pre><p>Add and commit:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>touch .gitignore
-</span></span><span style="display:flex;"><span>git add .gitignore
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Add .gitignore&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">touch .gitignore
+</span></span><span class="line"><span class="cl">git add .gitignore
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Add .gitignore&#34;</span>
 </span></span></code></pre></div><h3 id="step-5-create-a-new-repository-on-github">Step 5: Create a New Repository on GitHub</h3>
 <ol>
 <li>Create a new repository on GitHub.</li>
 <li>Copy the repository URL (HTTPS or SSH).</li>
 </ol>
 <h3 id="step-6-connect-local-repo-to-github">Step 6: Connect Local Repo to GitHub</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/your-username/your-repo.git
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote add origin https://github.com/your-username/your-repo.git
 </span></span></code></pre></div><h3 id="step-7-first-commit-and-push">Step 7: First Commit and Push</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
-</span></span><span style="display:flex;"><span>git push -u origin master
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Initial commit&#34;</span>
+</span></span><span class="line"><span class="cl">git push -u origin master
 </span></span></code></pre></div><h3 id="step-8-git-workflow">Step 8: Git Workflow</h3>
 <ol>
 <li>
 <p>Check status:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status
 </span></span></code></pre></div></li>
 <li>
 <p>Stage changes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add &lt;file&gt;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add &lt;file&gt;
 </span></span></code></pre></div></li>
 <li>
 <p>Commit changes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Commit message&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Commit message&#34;</span>
 </span></span></code></pre></div></li>
 <li>
 <p>Push changes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push
 </span></span></code></pre></div></li>
 </ol>
 <h3 id="branching">Branching</h3>
 <ul>
 <li>
 <p>Create a new branch:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout -b new-feature-branch
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -b new-feature-branch
 </span></span></code></pre></div></li>
 <li>
 <p>Merge branch:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout master
-</span></span><span style="display:flex;"><span>git merge new-feature-branch
-</span></span><span style="display:flex;"><span>git push
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout master
+</span></span><span class="line"><span class="cl">git merge new-feature-branch
+</span></span><span class="line"><span class="cl">git push
 </span></span></code></pre></div></li>
 <li>
 <p>Pull updates:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git pull
 </span></span></code></pre></div></li>
 </ul>
 <hr>

@@ -18,5 +18,14 @@ canonifyURLs = true
 [params]
   description = "This is my first site"
 
+[markup]
 [markup.goldmark.renderer]
     unsafe = "true"
+
+[markup.highlight]
+noClasses = false
+
+[markup.math]
+[markup.math.katex]
+enable = true
+
