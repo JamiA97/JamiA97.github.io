@@ -33,6 +33,12 @@
           title="RSS Feed for {{ .Site.Title }}." 
           href="/index.xml" />
         <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+
+        {{ partial "head.html" . }}
+        
+        {{ if .Param "math" }}
+          {{ partial "math.html" . }}
+        {{ end }}
 </head>
 
 <body>    
