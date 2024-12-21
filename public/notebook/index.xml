@@ -4,60 +4,58 @@
     <title>Notebook on JamiA97</title>
     <link>http://localhost:1313/notebook/</link>
     <description>Recent content in Notebook on JamiA97</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>example@mail.com (JamiA97)</managingEditor>
-    <webMaster>example@mail.com (JamiA97)</webMaster>
     <copyright>No copyright.</copyright>
     <atom:link href="http://localhost:1313/notebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to refresh browser cache</title>
       <link>http://localhost:1313/notebook/google_cache/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/google_cache/</guid>
-      <description>Sometimes you need to clear the google cache:&#xA;Press ctrl+F5</description>
+      <description>&lt;p&gt;Sometimes you need to clear the google cache:&lt;/p&gt;&#xA;&lt;p&gt;Press ctrl+F5&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to update the site from git</title>
       <link>http://localhost:1313/notebook/update_website/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/update_website/</guid>
-      <description>git add .&#xA;git commit -m &amp;ldquo;Some text&amp;rdquo;&#xA;git push origin master</description>
+      <description>&lt;p&gt;git add .&lt;/p&gt;&#xA;&lt;p&gt;git commit -m &amp;ldquo;Some text&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;git push origin master&lt;/p&gt;</description>
     </item>
     <item>
       <title>Notebooks on the internet</title>
       <link>http://localhost:1313/notebook/notebooks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/notebooks/</guid>
-      <description>It might be useful to keep notebook on the internet.</description>
+      <description>&lt;p&gt;It might be useful to keep notebook on the internet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quick post on Bayes Theorem</title>
       <link>http://localhost:1313/notebook/bayes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/bayes/</guid>
-      <description>Bayes Theorem $$ P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} $$ Where:&#xA;P(A|B) : The probability of event \( A \) occurring given that \( B \) has occurred (this is called the &amp;ldquo;posterior&amp;rdquo;). P(B|A) : The probability of event \( B \) occurring given that \( A \) has occurred (called the &amp;ldquo;likelihood&amp;rdquo;). P(A) : The prior probability of event \( A \) occurring (before we know \( B \)). P(B) : The total probability of event \( B \) occurring (the normalizing constant, which accounts for all possible ways \( B \) could happen).</description>
+      <description>&lt;h1 id=&#34;bayes-theorem&#34;&gt;Bayes Theorem&lt;/h1&gt;&#xA;$$&#xA;P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}&#xA;$$&lt;p&gt;Where:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;P(A|B) : The probability of event \( A \) occurring given that \( B \) has occurred (this is called the &amp;ldquo;posterior&amp;rdquo;).&lt;/li&gt;&#xA;&lt;li&gt;P(B|A) : The probability of event \( B \) occurring given that \( A \) has occurred (called the &amp;ldquo;likelihood&amp;rdquo;).&lt;/li&gt;&#xA;&lt;li&gt;P(A) : The prior probability of event \( A \) occurring (before we know \( B \)).&lt;/li&gt;&#xA;&lt;li&gt;P(B) : The total probability of event \( B \) occurring (the normalizing constant, which accounts for all possible ways \( B \) could happen).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This formula allows you to update your belief about the probability of \( A \) after knowing that \( B \) has occurred. It’s the foundation of Bayesian reasoning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reminder how to start hugo</title>
       <link>http://localhost:1313/notebook/start_hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/start_hugo/</guid>
-      <description>Simply type &amp;lsquo;hugo server&amp;rsquo; in the command window</description>
+      <description>&lt;p&gt;Simply type &amp;lsquo;hugo server&amp;rsquo; in the command window&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simple Web App Development Tech Stack</title>
       <link>http://localhost:1313/notebook/simple_web_app_git_setup_guide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/simple_web_app_git_setup_guide/</guid>
-      <description>Simple Web App Development Tech Stack Stack Components Use vanilla HTML Use JavaScript - Access external libraries as needed. Use SQLite for database actions. Use Node.js for server actions. Use Git/GitHub for version control. Project Structure Project ├── package.json ├── package-lock.json ├── public │ ├── index.html │ ├── script.js │ └── styles.css ├── database.db └── server.js Testing will be done locally on an Ubuntu laptop using Firefox or Chrome. Files will be edited using VSCode.</description>
+      <description>&lt;h1 id=&#34;simple-web-app-development-tech-stack&#34;&gt;Simple Web App Development Tech Stack&lt;/h1&gt;&#xA;&lt;h2 id=&#34;stack-components&#34;&gt;Stack Components&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Use vanilla HTML&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Use JavaScript&lt;/strong&gt; - Access external libraries as needed.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Use SQLite&lt;/strong&gt; for database actions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Use Node.js&lt;/strong&gt; for server actions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Use Git/GitHub&lt;/strong&gt; for version control.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;project-structure&#34;&gt;Project Structure&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Project&#xA;├── package.json&#xA;├── package-lock.json&#xA;├── public&#xA;│   ├── index.html&#xA;│   ├── script.js&#xA;│   └── styles.css&#xA;├── database.db&#xA;└── server.js&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Testing will be done locally on an Ubuntu laptop using Firefox or Chrome. Files will be edited using VSCode.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using vim with Markdown</title>
       <link>http://localhost:1313/notebook/using_vim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>example@mail.com (JamiA97)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/using_vim/</guid>
-      <description>Using VIM for editing Markdown. Markdown can be edited with VIM with the correct plugins:&#xA;plasticboy/vim-markdown: Provides syntax highlighting.&#xA;dhruvasagar/vim-table-mode: Adds table formatting features.&#xA;mzlogin/vim-markdown-toc: Automatically generates tables of contents for md files.&#xA;vim-polyglot: Provides language support for Markdown.&#xA;iamcco/markdown-preview.nvim: Allows preview of markdown files in a browser. Live.&#xA;To preview the markdown live use &amp;lsquo;:MarkdownPreview&amp;rsquo;</description>
+      <description>&lt;h3 id=&#34;using-vim-for-editing-markdown&#34;&gt;Using VIM for editing Markdown.&lt;/h3&gt;&#xA;&lt;p&gt;Markdown can be edited with VIM with the correct plugins:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;plasticboy/vim-markdown:&lt;/strong&gt; Provides syntax highlighting.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;dhruvasagar/vim-table-mode:&lt;/strong&gt; Adds table formatting features.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;mzlogin/vim-markdown-toc:&lt;/strong&gt; Automatically generates tables of contents for md files.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;vim-polyglot:&lt;/strong&gt; Provides language support for Markdown.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;iamcco/markdown-preview.nvim:&lt;/strong&gt; Allows preview of markdown files in a browser. Live.&lt;/p&gt;&#xA;&lt;p&gt;To preview the markdown live use &amp;lsquo;:MarkdownPreview&amp;rsquo;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

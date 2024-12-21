@@ -1,0 +1,120 @@
+.
+├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+│   ├── blog
+│   │   ├── _index.md
+│   │   └── Jamie_First_Post.md
+│   ├── colophon.md
+│   ├── essays
+│   │   └── an_essay.md
+│   ├── _index.md
+│   └── notebook
+│       ├── bayes.md
+│       ├── google_cache.md
+│       ├── _index.md
+│       ├── notebooks.md
+│       ├── simple_web_app_git_setup_guide.md
+│       ├── start_hugo.md
+│       ├── update_website.md
+│       └── using_vim.md
+├── layouts
+│   ├── 404.html
+│   ├── _default
+│   │   ├── baseof.html
+│   │   ├── list.html
+│   │   ├── single.html
+│   │   └── taxonomy.html
+│   ├── index.html
+│   └── partials
+│       ├── footer.html
+│       ├── header.html
+│       ├── head.html
+│       └── math.html
+├── public
+│   ├── 404.html
+│   ├── blog
+│   │   ├── education-difficult
+│   │   │   └── index.html
+│   │   ├── if
+│   │   │   └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── jamie_first_post
+│   │   │   └── index.html
+│   │   ├── nota
+│   │   │   └── index.html
+│   │   ├── programmer-projects
+│   │   │   └── index.html
+│   │   └── self-reliance
+│   │       └── index.html
+│   ├── categories
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── colophon
+│   │   └── index.html
+│   ├── css
+│   │   ├── styles.css
+│   │   └── styles_old.css
+│   ├── essays
+│   │   ├── an_essay
+│   │   │   └── index.html
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── fonts
+│   │   └── Raleway.woff2
+│   ├── index.html
+│   ├── index.xml
+│   ├── media
+│   │   └── nota.png
+│   ├── notebook
+│   │   ├── bayes
+│   │   │   └── index.html
+│   │   ├── blogging-unsolved
+│   │   │   └── index.html
+│   │   ├── google_cache
+│   │   │   └── index.html
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── notebooks
+│   │   │   └── index.html
+│   │   ├── simple_web_app_git_setup_guide
+│   │   │   └── index.html
+│   │   ├── start_hugo
+│   │   │   └── index.html
+│   │   ├── statistics
+│   │   │   └── index.html
+│   │   ├── update_website
+│   │   │   └── index.html
+│   │   └── using_vim
+│   │       └── index.html
+│   ├── sitemap.xml
+│   └── tags
+│       ├── index.html
+│       ├── index.xml
+│       ├── internet
+│       │   ├── index.html
+│       │   └── index.xml
+│       ├── math
+│       │   ├── index.html
+│       │   └── index.xml
+│       └── probability
+│           ├── index.html
+│           └── index.xml
+├── README.md
+├── resources
+│   └── _gen
+│       ├── assets
+│       └── images
+├── static
+│   ├── css
+│   │   ├── styles.css
+│   │   └── styles_old.css
+│   ├── fonts
+│   │   └── Raleway.woff2
+│   └── media
+│       └── nota.png
+└── website.txt
+
+46 directories, 72 files

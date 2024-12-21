@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
     <loc>http://localhost:1313/essays/an_essay/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
@@ -33,8 +35,6 @@
     <loc>http://localhost:1313/notebook/start_hugo/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/simple_web_app_git_setup_guide/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/using_vim/</loc>
   </url>

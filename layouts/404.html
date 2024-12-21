@@ -23,7 +23,7 @@
 
         <!-- Twitter Card (large image card) tags -->
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:creator" content="@{{.Site.Author.twitter}}">
+        <meta name="twitter:creator" content="@{{.Site.Params.Author.twitter}}">
         <meta name="twitter:title" content="{{ .Title }}">
         <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}
         {{ else }} {{ .Site.Params.description }}{{ end }}" />

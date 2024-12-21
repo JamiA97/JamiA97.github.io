@@ -4,10 +4,8 @@
     <title>Categories on JamiA97</title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on JamiA97</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>example@mail.com (JamiA97)</managingEditor>
-    <webMaster>example@mail.com (JamiA97)</webMaster>
     <copyright>No copyright.</copyright>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
