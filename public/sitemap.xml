@@ -3,12 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/essays/an_essay/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/internet/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/internet/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/second_post/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/jamie_first_post/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/essays/an_essay/</loc>
   </url><url>
     <loc>http://localhost:1313/colophon/</loc>
   </url><url>
@@ -17,12 +35,6 @@
     <loc>http://localhost:1313/notebook/google_cache/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/update_website/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/internet/</loc>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/jamie_first_post/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/</loc>
   </url><url>

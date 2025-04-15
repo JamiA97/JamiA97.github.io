@@ -1,10 +1,12 @@
 ---
-title: My first Post
+title: A Post
 description: What to write / How to write
+date: 2024-12-20
+tags: [Internet]
 ---
 
-## Why bother ? 
+## A Post
 
-Inspired to come back to the internet and try a static website one last time. An attempt to write things down. 
-Perhaps a journal, a blog. Perhaps musings on the future. Interests in many things, fiction, engineering, computing, science, history and art. 
+Just testing. 
+
 

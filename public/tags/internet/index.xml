@@ -7,7 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>No copyright.</copyright>
+    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second_Post</title>
+      <link>http://localhost:1313/blog/second_post/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/second_post/</guid>
+      <description>&lt;p&gt;CONTENT&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Post</title>
+      <link>http://localhost:1313/blog/jamie_first_post/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/jamie_first_post/</guid>
+      <description>&lt;h2 id=&#34;a-post&#34;&gt;A Post&lt;/h2&gt;&#xA;&lt;p&gt;Just testing.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>An Essay</title>
       <link>http://localhost:1313/essays/an_essay/</link>
