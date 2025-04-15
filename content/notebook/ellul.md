@@ -4,7 +4,7 @@ title: "The Technological Society"
 tags: [Philosophy]
 ---
 
-Notes on 'The Technological Society' by Jacques Ellul
+Notes on 'The Technological Society' by Jacques Ellul...by me.
 
 Jacques Ellul wrote *The Technological Society* to sound an alarm about the unchecked rise of technique in modern life.
 
