@@ -8,4 +8,5 @@ tags: [Philosophy]
   
 Jacques Ellul wrote 'The Technological Society'  
 
-
+  
+Hi  
