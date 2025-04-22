@@ -37,4 +37,5 @@ enable = true
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
 
-
+[outputs]
+  section = ["HTML", "RSS"]

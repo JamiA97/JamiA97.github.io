@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>All Tags on JamiA97</title>
-    <link>https://jamia97.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in All Tags on JamiA97</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>No copyright.</copyright>
     <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jamia97.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Internet</title>
-      <link>https://jamia97.github.io/tags/internet/</link>
+      <link>http://localhost:1313/tags/internet/</link>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://jamia97.github.io/tags/internet/</guid>
+      <guid>http://localhost:1313/tags/internet/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>https://jamia97.github.io/tags/philosophy/</link>
+      <link>http://localhost:1313/tags/philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jamia97.github.io/tags/philosophy/</guid>
+      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Probability</title>
-      <link>https://jamia97.github.io/tags/probability/</link>
+      <link>http://localhost:1313/tags/probability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jamia97.github.io/tags/probability/</guid>
+      <guid>http://localhost:1313/tags/probability/</guid>
       <description></description>
     </item>
   </channel>

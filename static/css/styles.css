@@ -153,4 +153,8 @@
     position: absolute;
     bottom: 0px;
   }
- 
+
+a.active {
+    text-decoration: underline;
+    font-weight: bold;
+} 

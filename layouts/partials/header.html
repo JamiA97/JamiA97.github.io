@@ -1,20 +1,15 @@
-
 <header>
 	<h1> {{ .Page.Title }} </h1>
 	<nav> 
+		<a href='/' class='{{ if eq .RelPermalink "/" }}active{{ end }}'>/home</a>
+		<a href='/blog/' class='{{ if eq .RelPermalink "/blog/" }}active{{ end }}'>/blog</a>
+		<a href='/notebook/' class='{{ if or (eq .RelPermalink "/notebook/") (strings.HasPrefix .RelPermalink "/notebook/") }}active{{ end }}'>/notebook</a>
+	</nav>
+</header>
+<!--
+<nav> 
 		<a href='/'>/home</a>
 		<a href='/blog'>/blog</a>
 		<a href='/notebook'>/notebook</a>
-		<a href='/essays'>/essays</a>
-		<a href='/colophon'>/colophon</a>
-	</nav>
-</header>
-
-
-<!--
-<nav>
-	{{ range .Site.Menus.main }}
-	  <a href="{{ .URL }}">{{ .Name }}</a>
-	{{ end }}
 </nav>
 -->  

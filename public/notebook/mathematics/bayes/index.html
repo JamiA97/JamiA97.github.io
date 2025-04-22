@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> Quick post on Bayes Theorem • JamiA97 </title>
+        <meta name="description" content=" This is my first site">
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180"  href="http://localhost:1313/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="16x16"  href="http://localhost:1313/favicon.ico"> 
+
+        
+        <meta property="og:url" content="http://localhost:1313/" />
+        <meta property="og:title" content="Quick post on Bayes Theorem" />
+        <meta property="og:description" content=" This is my first site" />
+        <meta property="og:image" content="http://localhost:1313//card.jpg" />
+
+
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:creator" content="@">
+        <meta name="twitter:title" content="Quick post on Bayes Theorem">
+        <meta name="twitter:description" content=" This is my first site" />
+        <meta name="twitter:image" content="http://localhost:1313//card.jpg" />
+
+        <link rel="alternate" type="application/rss+xml" 
+          title="RSS Feed for JamiA97." 
+          href="http://localhost:1313/index.xml" />
+        <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.css" />
+
+        <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quick post on Bayes Theorem</title>
+    <link rel="icon" href="http://localhost:1313/favicon.ico" />
+    <meta property="og:image" content="/preview.png" /> 
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfDtD9Svn8gK+5/Zqs9PPDlxy8pl3Whq/XZl5xk+8BdSHffKnb2EA9u3cfQJB6J8" crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-vGFC33v6KA4K5UjXtSdcEt2zQCl81RR0WLHfpRMBwryNVwwn8XHfwYLRJ8W/a8fN" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-RbZ4AukGKhPSeAxYYs+n9fz5eRNuc8hYzn+m8tEh8bqRzFf4WuGeobZBYzqDa6RX" crossorigin="anonymous"></script>
+
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},  
+            {left: "\\(", right: "\\)", display: false} 
+          ]
+        });
+      });
+    </script>
+</head>
+
+
+        
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\[', right: '\\]', display: true},   
+        {left: '$$', right: '$$', display: true},     
+        {left: '\\(', right: '\\)', display: false},  
+      ],
+      throwOnError: false
+    });
+  });
+</script>
+
+
+        
+</head>
+
+<body>    
+        <header>
+	<h1> Quick post on Bayes Theorem </h1>
+	<nav> 
+		<a href='http://localhost:1313/' class=''>/home</a>
+		<a href='http://localhost:1313/blog/' class=''>/blog</a>
+		<a href='http://localhost:1313/notebook/' class='active'>/notebook</a>
+	</nav>
+</header>
+  
+
+<main>
+        <article>
+
+      <h1 id="bayes-theorem">Bayes Theorem</h1>
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$<p>Where:</p>
+<ul>
+<li>P(A|B) : The probability of event \( A \) occurring given that \( B \) has occurred (this is called the &ldquo;posterior&rdquo;).</li>
+<li>P(B|A) : The probability of event \( B \) occurring given that \( A \) has occurred (called the &ldquo;likelihood&rdquo;).</li>
+<li>P(A) : The prior probability of event \( A \) occurring (before we know \( B \)).</li>
+<li>P(B) : The total probability of event \( B \) occurring (the normalizing constant, which accounts for all possible ways \( B \) could happen).</li>
+</ul>
+<p>This formula allows you to update your belief about the probability of \( A \) after knowing that \( B \) has occurred. It’s the foundation of Bayesian reasoning.</p>
+<h3 id="scenario">Scenario:</h3>
+<ul>
+<li><strong>\( A \)</strong>: Your friend responds quickly to a text message (within 5 minutes).</li>
+<li><strong>\( B \)</strong>: You sent a message in the morning.</li>
+</ul>
+<p>You want to know the probability that your friend will respond quickly (\( A \)) given that you sent the message in the morning (\( B \)).</p>
+<h3 id="given-data-realistic-assumptions">Given Data (Realistic Assumptions):</h3>
+<ol>
+<li><strong>\( P(A) \)</strong>: The probability that your friend responds quickly to a message in general is 20%, so \( P(A) = 0.20 \).</li>
+<li><strong>\( P(B|A) \)</strong>: If your friend responds quickly, there&rsquo;s a 70% chance that it happens in the morning. So, \( P(B|A) = 0.70 \).</li>
+<li><strong>\( P(B) \)</strong>: The general probability that you send a message in the morning is 50%, so \( P(B) = 0.50 \).</li>
+</ol>
+<h3 id="question">Question:</h3>
+<p>What is the probability that your friend will respond quickly, given that you sent the message in the morning? We are looking for \( P(A|B) \).</p>
+<h3 id="apply-bayes-theorem">Apply Bayes&rsquo; Theorem:</h3>
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$<p>Substituting the known values:</p>
+$$
+P(A|B) = \frac{0.70 \cdot 0.20}{0.50}
+$$$$
+P(A|B) = \frac{0.14}{0.50} = 0.28
+$$<h3 id="conclusion">Conclusion:</h3>
+<p>The probability that your friend will respond quickly, given that you sent the message in the morning, is <strong>28%</strong>.</p>
+
+ 
+
+        </article>      
+</main>
+        <footer>
+	No copyright.
+</footer>
+</body>
+</html>
