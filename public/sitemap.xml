@@ -55,6 +55,8 @@
   </url><url>
     <loc>http://localhost:1313/notebook/philosophy/ellul/</loc>
   </url><url>
+    <loc>http://localhost:1313/notebook/philosophy/truths/</loc>
+  </url><url>
     <loc>http://localhost:1313/notebook/computing/using_vim/</loc>
   </url>
 </urlset>
