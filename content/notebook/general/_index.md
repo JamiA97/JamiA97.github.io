@@ -1,3 +1,3 @@
 ---
-title: "general"
+title: "General"
 ---
