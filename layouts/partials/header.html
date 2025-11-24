@@ -2,6 +2,7 @@
 	<h1> {{ .Page.Title }} </h1>
 	<nav> 
 		<a href='/' class='{{ if eq .RelPermalink "/" }}active{{ end }}'>/home</a>
+		<a href='/edna/' class='{{ if or (eq .RelPermalink "/edna/") (strings.HasPrefix .RelPermalink "/edna/") }}active{{ end }}'>/edna</a>
 		<a href='/blog/' class='{{ if eq .RelPermalink "/blog/" }}active{{ end }}'>/blog</a>
 		<a href='/notebook/' class='{{ if or (eq .RelPermalink "/notebook/") (strings.HasPrefix .RelPermalink "/notebook/") }}active{{ end }}'>/notebook</a>
 	</nav>

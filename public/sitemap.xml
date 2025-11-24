@@ -25,6 +25,8 @@
   </url><url>
     <loc>http://localhost:1313/notebook/computing/</loc>
   </url><url>
+    <loc>http://localhost:1313/edna/</loc>
+  </url><url>
     <loc>http://localhost:1313/essays/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/general/</loc>

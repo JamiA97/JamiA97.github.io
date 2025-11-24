@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <title> EDNA – Engineering Design Lineage CLI • JamiA97 </title>
+        <meta name="description" content="EDNA (eng-dna) tags engineering artefacts with stable DNA tokens and tracks their lineage in a local SQLite store.
+        ">
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180"  href="http://localhost:1313/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="16x16"  href="http://localhost:1313/favicon.ico"> 
+
+        
+        <meta property="og:url" content="http://localhost:1313/" />
+        <meta property="og:title" content="EDNA – Engineering Design Lineage CLI" />
+        <meta property="og:description" content="EDNA (eng-dna) tags engineering artefacts with stable DNA tokens and tracks their lineage in a local SQLite store.
+        " />
+        <meta property="og:image" content="http://localhost:1313//card.jpg" />
+
+
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:creator" content="@">
+        <meta name="twitter:title" content="EDNA – Engineering Design Lineage CLI">
+        <meta name="twitter:description" content="EDNA (eng-dna) tags engineering artefacts with stable DNA tokens and tracks their lineage in a local SQLite store.
+        " />
+        <meta name="twitter:image" content="http://localhost:1313//card.jpg" />
+
+        <link rel="alternate" type="application/rss+xml" 
+          title="RSS Feed for JamiA97." 
+          href="http://localhost:1313/index.xml" />
+        <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.css" />
+
+        <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EDNA – Engineering Design Lineage CLI</title>
+    <link rel="icon" href="http://localhost:1313/favicon.ico" />
+    <meta property="og:image" content="/preview.png" /> 
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfDtD9Svn8gK+5/Zqs9PPDlxy8pl3Whq/XZl5xk+8BdSHffKnb2EA9u3cfQJB6J8" crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-vGFC33v6KA4K5UjXtSdcEt2zQCl81RR0WLHfpRMBwryNVwwn8XHfwYLRJ8W/a8fN" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-RbZ4AukGKhPSeAxYYs+n9fz5eRNuc8hYzn+m8tEh8bqRzFf4WuGeobZBYzqDa6RX" crossorigin="anonymous"></script>
+
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},  
+            {left: "\\(", right: "\\)", display: false} 
+          ]
+        });
+      });
+    </script>
+</head>
+
+
+        
+        
+</head>
+
+<body>    
+        <header>
+	<h1> EDNA – Engineering Design Lineage CLI </h1>
+	<nav> 
+		<a href='http://localhost:1313/' class=''>/home</a>
+		<a href='http://localhost:1313/edna/' class='active'>/edna</a>
+		<a href='http://localhost:1313/blog/' class=''>/blog</a>
+		<a href='http://localhost:1313/notebook/' class=''>/notebook</a>
+	</nav>
+</header>
+  
+
+<main>
+        <article>
+
+      <p>EDNA (<code>eng-dna</code>) is a lightweight CLI that gives engineers a portable, file-system-native memory of how designs, scripts, simulations, and reports evolve. It tags artefacts with stable DNA tokens, writes sidecars instead of mutating source files, and keeps lineage in a local SQLite database—no server required.</p>
+<p><strong>At a glance</strong></p>
+<ul>
+<li><strong>What it is:</strong> CLI for engineering lineage with stable DNA tokens and a local SQLite memory store.</li>
+<li><strong>Who it’s for:</strong> Engineers, analysts, and simulation teams working in file/Git-centric workflows.</li>
+<li><strong>Why it exists:</strong> Traditional PLM/PDM is heavy; EDNA makes lineage as simple as running a CLI in your repo.</li>
+<li><strong>Key capabilities:</strong> Tag artefacts, link derivations, trace and graph lineage, export/import bundles, repair sidecars.</li>
+</ul>
+<h2 id="why-edna-the-market-gap-it-fills">Why EDNA? The market gap it fills</h2>
+<ul>
+<li>PLM/PDM systems are heavy, centralised, and slow to fit quick local workflows.</li>
+<li>Most teams reconstruct history from ad-hoc folders, filenames, and chat/email trails.</li>
+<li>There’s rarely a lightweight, CLI-first way to tag artefacts with stable IDs, capture <code>derived_from</code>/<code>validated_by</code> lineage across CAD/CFD/FEA/scripts/reports, and ship that lineage with a project via Git—without a server.</li>
+<li>EDNA is a “Git-like” lineage CLI: local, SQLite-backed, scriptable, and portable via JSON export/import bundles.</li>
+</ul>
+<h2 id="how-edna-works-high-level">How EDNA works (high level)</h2>
+<ul>
+<li><strong>DNA tokens:</strong> Immutable IDs assigned per artefact; moving or renaming files does not change the DNA.</li>
+<li><strong>SQLite lineage store:</strong> <code>eng_dna.db</code> holds artefacts, edges, tags, notes, events, and projects.</li>
+<li><strong>Sidecars + embedded markers:</strong> Most formats use <code>filename.ext.edna</code> JSON sidecars (DNA, hash, type, path). Some text formats can embed metadata in comments, but sidecars keep hashes honest by default.</li>
+<li><strong>Lineage graph:</strong> Nodes are artefacts; edges capture relations like <code>derived_from</code>, <code>uses</code>, <code>validated_by</code>, and <code>supersedes</code>.</li>
+<li><strong>Events:</strong> <code>created</code>, <code>derived</code>, <code>moved</code>, <code>versioned</code>, <code>sidecar_restored</code>, etc., log the story over time.</li>
+</ul>
+<h2 id="core-workflows">Core workflows</h2>
+<p><strong>Initialise a workspace and project</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna init
+</span></span><span class="line"><span class="cl">edna project add demo --name <span class="s2">&#34;Demo Build&#34;</span>
+</span></span></code></pre></div><p><strong>Tag files with context</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna tag cad/wing.sldprt --type cad --project aero --tag baseline --description <span class="s2">&#34;Initial loft&#34;</span>
+</span></span><span class="line"><span class="cl">edna tag reports/loads.md --type report --tag review --project aero
+</span></span><span class="line"><span class="cl">edna tag scripts/cleanup.py --type script --tag util
+</span></span></code></pre></div><p><strong>Link derived artefacts</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna link results/run1_pressures.csv <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --from cfd/run1.jou <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --relation derived_from <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --reason <span class="s2">&#34;post-processing&#34;</span>
+</span></span></code></pre></div><p><strong>Trace lineage</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna trace results/run1_pressures.csv
+</span></span></code></pre></div><p><strong>Visualise the graph</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna graph cad/wing.sldprt --scope full --direction LR &gt; lineage.mmd
+</span></span></code></pre></div><p><strong>Export/import portable lineage</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna <span class="nb">export</span> --project demo --output edna_lineage_demo.json
+</span></span><span class="line"><span class="cl">edna import edna_lineage_demo.json --dry-run
+</span></span><span class="line"><span class="cl">edna import edna_lineage_demo.json
+</span></span></code></pre></div><p><strong>Repair and rescan</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna rescan ./workspace
+</span></span></code></pre></div><h2 id="detailed-cli-usage">Detailed CLI usage</h2>
+<h3 id="search-across-tags-types-and-projects">Search across tags, types, and projects</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna search --tag baseline --project aero
+</span></span><span class="line"><span class="cl">edna search --type cad
+</span></span></code></pre></div><h3 id="correct-mistaken-lineage">Correct mistaken lineage</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Remove an incorrect derived_from edge but keep an audit trail</span>
+</span></span><span class="line"><span class="cl">edna unlink results/run1_pressures.csv <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --from cfd/run1.jou <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --relation derived_from
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Preview unlinking without DB changes</span>
+</span></span><span class="line"><span class="cl">edna unlink results/run1_pressures.csv <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --from cfd/run1.jou <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --relation derived_from <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  --dry-run
+</span></span></code></pre></div><h3 id="day-in-the-life--designer-iterating-a-geometry">Day in the life – designer iterating a geometry</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna init
+</span></span><span class="line"><span class="cl">edna project add aero --name <span class="s2">&#34;Wing Study&#34;</span>
+</span></span><span class="line"><span class="cl">edna tag cad/wing.sldprt --type cad --tag v1 --project aero
+</span></span><span class="line"><span class="cl">edna tag cfd/mesh.jou --type cfd --project aero --tag v1
+</span></span><span class="line"><span class="cl">edna link cfd/mesh.jou --from cad/wing.sldprt --relation derived_from --reason <span class="s2">&#34;meshing&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Designer tweaks geometry (new version auto-linked)</span>
+</span></span><span class="line"><span class="cl">edna tag cad/wing.sldprt --type cad --tag v2
+</span></span><span class="line"><span class="cl">edna tag cfd/mesh.jou --type cfd --tag v2 --force-overwrite
+</span></span><span class="line"><span class="cl">edna link cfd/mesh.jou --from cad/wing.sldprt --relation derived_from --reason <span class="s2">&#34;meshing update&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">edna graph cad/wing.sldprt --scope full --direction LR &gt; lineage.mmd
+</span></span></code></pre></div><h3 id="pathology-and-recovery">Pathology and recovery</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Missing sidecar → automatic recreation on show/tag/rescan</span>
+</span></span><span class="line"><span class="cl">rm reports/day1.md.edna
+</span></span><span class="line"><span class="cl">edna show reports/day1.md
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Retagging identical content → same DNA</span>
+</span></span><span class="line"><span class="cl">edna tag reports/day1.md --tag review
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Force hash overwrite when needed</span>
+</span></span><span class="line"><span class="cl">edna tag reports/day1.md --force-overwrite --description <span class="s2">&#34;hotfix without new version&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Work-in-progress saves keep the same DNA but log wip events</span>
+</span></span><span class="line"><span class="cl">edna tag reports/day1.md --mode wip
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Corrupted sidecar is ignored and repaired</span>
+</span></span><span class="line"><span class="cl"><span class="nb">printf</span> <span class="s1">&#39;{bad json&#39;</span> &gt; reports/day1.md.edna
+</span></span><span class="line"><span class="cl">edna show reports/day1.md
+</span></span></code></pre></div><h3 id="lineage-diagram-conceptual">Lineage diagram (conceptual)</h3>
+<pre tabindex="0"><code>Projects: [aero]
+
+edna_parent1 ---- derived_from ----&gt; edna_childA
+     |                                   |
+     | linked (relation=notes)           | derived_from
+     v                                   v
+  events (created, moved, versioned)  edna_childB
+</code></pre><h3 id="export-trace-and-graph">Export, trace, and graph</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna trace results/new.csv
+</span></span><span class="line"><span class="cl">edna graph results/new.csv &gt; lineage.mmd
+</span></span><span class="line"><span class="cl">edna graph results/new.csv --format dot --scope full --direction LR &gt; lineage.dot
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">edna <span class="nb">export</span> --project demo --output edna_lineage_demo.json
+</span></span><span class="line"><span class="cl">edna import edna_lineage_demo.json --dry-run
+</span></span><span class="line"><span class="cl">edna import edna_lineage_demo.json
+</span></span></code></pre></div><h3 id="project-management">Project management</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna project add demo --name <span class="s2">&#34;Demo Build&#34;</span>
+</span></span><span class="line"><span class="cl">edna project list
+</span></span><span class="line"><span class="cl">edna project show demo
+</span></span><span class="line"><span class="cl">edna project files demo
+</span></span><span class="line"><span class="cl">edna project delete demo --dry-run
+</span></span><span class="line"><span class="cl">edna project delete demo --force
+</span></span><span class="line"><span class="cl">edna project delete demo --purge-sidecars --dry-run
+</span></span><span class="line"><span class="cl">edna project delete demo --purge-sidecars --force
+</span></span></code></pre></div><h3 id="rescanning-and-repair">Rescanning and repair</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">edna rescan ./workspace
+</span></span></code></pre></div><h3 id="faq">FAQ</h3>
+<ul>
+<li><strong>Why do DNA tokens never change?</strong> They are immutable IDs; new content creates a new DNA linked to its parent so history stays auditable.</li>
+<li><strong>Why is embedding metadata disabled by default?</strong> Embedded markers would mutate files and hashes; sidecars keep content untouched until hashing can ignore embedded markers.</li>
+<li><strong>How does EDNA behave when files move?</strong> On show/tag/rescan, EDNA normalises the new path, rewrites the sidecar, and logs a <code>moved</code> event without changing DNA.</li>
+<li><strong>How does EDNA detect versions?</strong> A hash mismatch creates a new artefact and <code>derived_from</code> edge unless <code>--force-overwrite</code> is provided.</li>
+</ul>
+<h2 id="learn-more">Learn more</h2>
+<ul>
+<li>Source: <a href="https://github.com/JamiA97/eng-dna">eng-dna on GitHub</a></li>
+<li>Design notes: <a href="https://github.com/JamiA97/eng-dna/blob/main/Background.md"><code>Background.md</code></a> and <a href="https://github.com/JamiA97/eng-dna/blob/main/USAGE.md"><code>USAGE.md</code></a></li>
+</ul>
+
+      <br>
+          
+       
+
+        </article>      
+</main>
+        <footer>
+	No copyright.
+</footer>
+</body>
+</html>
