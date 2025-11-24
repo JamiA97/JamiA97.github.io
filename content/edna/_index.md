@@ -3,6 +3,8 @@ title: "EDNA – Engineering Design Lineage CLI"
 description: "EDNA (eng-dna) tags engineering artefacts with stable DNA tokens and tracks their lineage in a local SQLite store."
 ---
 
+![EDNA Whiteboard Diagram](/media/edna_whiteboard_image.png)
+
 EDNA (`eng-dna`) is a lightweight CLI that gives engineers a portable, file-system-native memory of how designs, scripts, simulations, and reports evolve. It tags artefacts with stable DNA tokens, writes sidecars instead of mutating source files, and keeps lineage in a local SQLite database—no server required.
 
 **At a glance**
