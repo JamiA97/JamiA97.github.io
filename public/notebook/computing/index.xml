@@ -13,21 +13,28 @@
       <link>http://localhost:1313/notebook/computing/google_cache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/google_cache/</guid>
-      <description>&lt;p&gt;Sometimes you need to clear the google cache:&lt;/p&gt;&#xA;&lt;p&gt;Press ctrl+F5&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sometimes you need to clear the google cache:&lt;/p&gt;&#xA;&lt;p&gt;Find the current note here: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#refreshing-browser-cache&#34;&gt;/notebook/computing/quick_tips/#refreshing-browser-cache&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to update the site from git</title>
       <link>http://localhost:1313/notebook/computing/update_website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/update_website/</guid>
-      <description>&lt;p&gt;git add .&lt;/p&gt;&#xA;&lt;p&gt;git commit -m &amp;ldquo;Some text&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;git push origin master&lt;/p&gt;</description>
+      <description>&lt;p&gt;These git commands are now collected under quick tips: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#updating-the-site-from-git&#34;&gt;/notebook/computing/quick_tips/#updating-the-site-from-git&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quick Tips (Commands I Forget)</title>
+      <link>http://localhost:1313/notebook/computing/quick_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/computing/quick_tips/</guid>
+      <description>&lt;p&gt;Collected reminders for commands and tiny workflows I forget between sessions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;starting-hugo&#34;&gt;Starting Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s built-in server to preview the site locally:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;updating-the-site-from-git&#34;&gt;Updating the site from git&lt;/h2&gt;&#xA;&lt;p&gt;Commit and push any local changes:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update site content&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;refreshing-browser-cache&#34;&gt;Refreshing browser cache&lt;/h2&gt;&#xA;&lt;p&gt;Force a hard refresh when assets feel stale:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Ctrl+F5&lt;/code&gt; (Windows/Linux) or &lt;code&gt;Cmd+Shift+R&lt;/code&gt; (macOS)&lt;/p&gt;&#xA;&lt;h2 id=&#34;notebooks-on-the-internet&#34;&gt;Notebooks on the internet&lt;/h2&gt;&#xA;&lt;p&gt;Keep lightweight notes online so they are easy to search, link, and sync between machines.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reminder how to start hugo</title>
       <link>http://localhost:1313/notebook/computing/start_hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/start_hugo/</guid>
-      <description>&lt;p&gt;Simply type &amp;lsquo;hugo server&amp;rsquo; in the command window&lt;/p&gt;</description>
+      <description>&lt;p&gt;This reminder now lives on the consolidated quick tips page: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#starting-hugo&#34;&gt;/notebook/computing/quick_tips/#starting-hugo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simple Web App Development Tech Stack</title>

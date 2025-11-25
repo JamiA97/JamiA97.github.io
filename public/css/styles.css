@@ -122,6 +122,27 @@
     margin: 0px 0px 1.2rem 0px;
   }
 
+  pre{
+    margin: 1.5rem 0rem;
+  }
+
+  pre code{
+    display: block;
+    padding: 0.75rem 1rem;
+    overflow-x: auto;
+    font-family: monospace;
+    font-size: 0.9em;
+    background: #ddd;
+    border-radius: 4px;
+    white-space: pre;
+  }
+
+  code{
+    font-family: monospace;
+    font-size: 0.95em;
+    padding: 0.1rem 0.25rem;
+  }
+
   img{
     width: 100%;
     margin: 1rem 0rem;
@@ -158,3 +179,81 @@ a.active {
     text-decoration: underline;
     font-weight: bold;
 } 
+
+.toc{
+    border-left: solid 3px var(--text);
+    padding-left: 1rem;
+    margin: 1rem 0rem 2rem 0rem;
+    font-size: 0.95em;
+}
+
+.toc ul{
+    padding-left: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+.toc li{
+    margin: 0.25rem 0rem;
+}
+
+.notebook-search{
+    margin: 1rem 0rem 1.5rem 0rem;
+}
+
+.notebook-search input{
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--text);
+    border-radius: 4px;
+    background: var(--background);
+    box-sizing: border-box;
+}
+
+.notebook-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notebook-list li{
+    margin: 0.75rem 0rem;
+}
+
+.note-description{
+    display: block;
+    color: grey;
+    font-size: 0.95rem;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.truths-table{
+    border-collapse: collapse;
+}
+
+.truths-table th,
+.truths-table td{
+    padding: 0.75rem 0.5rem;
+    vertical-align: top;
+}
+
+.truths-table th:first-child,
+.truths-table td:first-child{
+    white-space: nowrap;
+    min-width: 9rem;
+}
+
+.truths-table td:nth-child(2),
+.truths-table td:nth-child(3){
+    word-break: break-word;
+}

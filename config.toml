@@ -43,7 +43,7 @@ enable = true
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "EDNA"
+    name = "/edna"
     url = "/edna/"
     weight = 2
   [[menu.main]]
@@ -54,6 +54,10 @@ enable = true
     name = "/notebook"
     url = "/notebook/"
     weight = 4
+  [[menu.main]]
+    name = "/about"
+    url = "/about/"
+    weight = 5
 
 [outputs]
   section = ["HTML", "RSS"]

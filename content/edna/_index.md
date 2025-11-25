@@ -14,6 +14,10 @@ EDNA (`eng-dna`) is a lightweight CLI that gives engineers a portable, file-syst
 - **Why it exists:** Traditional PLM/PDM is heavy; EDNA makes lineage as simple as running a CLI in your repo.  
 - **Key capabilities:** Tag artefacts, link derivations, trace and graph lineage, export/import bundles, repair sidecars.
 
+## Contents
+
+{{< toc >}}
+
 ## Why EDNA? The market gap it fills
 
 - PLM/PDM systems are heavy, centralised, and slow to fit quick local workflows.  
@@ -197,3 +201,5 @@ edna rescan ./workspace
 
 - Source: [eng-dna on GitHub](https://github.com/JamiA97/eng-dna)  
 - Design notes: [`Background.md`](https://github.com/JamiA97/eng-dna/blob/main/Background.md) and [`USAGE.md`](https://github.com/JamiA97/eng-dna/blob/main/USAGE.md)
+
+[Back to top](#contents)

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computing on JamiA97</title>
+    <link>http://localhost:1313/tags/computing/</link>
+    <description>Recent content in Computing on JamiA97</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>No copyright.</copyright>
+    <atom:link href="http://localhost:1313/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Tips (Commands I Forget)</title>
+      <link>http://localhost:1313/notebook/computing/quick_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/computing/quick_tips/</guid>
+      <description>&lt;p&gt;Collected reminders for commands and tiny workflows I forget between sessions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;starting-hugo&#34;&gt;Starting Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s built-in server to preview the site locally:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;updating-the-site-from-git&#34;&gt;Updating the site from git&lt;/h2&gt;&#xA;&lt;p&gt;Commit and push any local changes:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update site content&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;refreshing-browser-cache&#34;&gt;Refreshing browser cache&lt;/h2&gt;&#xA;&lt;p&gt;Force a hard refresh when assets feel stale:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Ctrl+F5&lt;/code&gt; (Windows/Linux) or &lt;code&gt;Cmd+Shift+R&lt;/code&gt; (macOS)&lt;/p&gt;&#xA;&lt;h2 id=&#34;notebooks-on-the-internet&#34;&gt;Notebooks on the internet&lt;/h2&gt;&#xA;&lt;p&gt;Keep lightweight notes online so they are easy to search, link, and sync between machines.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

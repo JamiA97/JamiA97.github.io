@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>No copyright.</copyright>
-    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Post</title>
-      <link>http://localhost:1313/blog/jamie_first_post/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/jamie_first_post/</guid>
-      <description>&lt;h2 id=&#34;a-post&#34;&gt;A Post&lt;/h2&gt;&#xA;&lt;p&gt;Just testing.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>An Essay</title>
       <link>http://localhost:1313/essays/an_essay/</link>
@@ -35,21 +28,21 @@
       <link>http://localhost:1313/notebook/computing/google_cache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/google_cache/</guid>
-      <description>&lt;p&gt;Sometimes you need to clear the google cache:&lt;/p&gt;&#xA;&lt;p&gt;Press ctrl+F5&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sometimes you need to clear the google cache:&lt;/p&gt;&#xA;&lt;p&gt;Find the current note here: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#refreshing-browser-cache&#34;&gt;/notebook/computing/quick_tips/#refreshing-browser-cache&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to update the site from git</title>
       <link>http://localhost:1313/notebook/computing/update_website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/update_website/</guid>
-      <description>&lt;p&gt;git add .&lt;/p&gt;&#xA;&lt;p&gt;git commit -m &amp;ldquo;Some text&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;git push origin master&lt;/p&gt;</description>
+      <description>&lt;p&gt;These git commands are now collected under quick tips: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#updating-the-site-from-git&#34;&gt;/notebook/computing/quick_tips/#updating-the-site-from-git&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Notebooks on the internet</title>
       <link>http://localhost:1313/notebook/general/notebooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/general/notebooks/</guid>
-      <description>&lt;p&gt;It might be useful to keep notebook on the internet.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This thought now sits with other quick tips: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#notebooks-on-the-internet&#34;&gt;/notebook/computing/quick_tips/#notebooks-on-the-internet&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Offline Instructions for Managing Sections</title>
@@ -66,11 +59,18 @@
       <description>&lt;h1 id=&#34;bayes-theorem&#34;&gt;Bayes Theorem&lt;/h1&gt;&#xA;$$&#xA;P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}&#xA;$$&lt;p&gt;Where:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;P(A|B) : The probability of event \( A \) occurring given that \( B \) has occurred (this is called the &amp;ldquo;posterior&amp;rdquo;).&lt;/li&gt;&#xA;&lt;li&gt;P(B|A) : The probability of event \( B \) occurring given that \( A \) has occurred (called the &amp;ldquo;likelihood&amp;rdquo;).&lt;/li&gt;&#xA;&lt;li&gt;P(A) : The prior probability of event \( A \) occurring (before we know \( B \)).&lt;/li&gt;&#xA;&lt;li&gt;P(B) : The total probability of event \( B \) occurring (the normalizing constant, which accounts for all possible ways \( B \) could happen).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This formula allows you to update your belief about the probability of \( A \) after knowing that \( B \) has occurred. It’s the foundation of Bayesian reasoning.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Quick Tips (Commands I Forget)</title>
+      <link>http://localhost:1313/notebook/computing/quick_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notebook/computing/quick_tips/</guid>
+      <description>&lt;p&gt;Collected reminders for commands and tiny workflows I forget between sessions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;starting-hugo&#34;&gt;Starting Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s built-in server to preview the site locally:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;updating-the-site-from-git&#34;&gt;Updating the site from git&lt;/h2&gt;&#xA;&lt;p&gt;Commit and push any local changes:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update site content&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin master&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;refreshing-browser-cache&#34;&gt;Refreshing browser cache&lt;/h2&gt;&#xA;&lt;p&gt;Force a hard refresh when assets feel stale:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Ctrl+F5&lt;/code&gt; (Windows/Linux) or &lt;code&gt;Cmd+Shift+R&lt;/code&gt; (macOS)&lt;/p&gt;&#xA;&lt;h2 id=&#34;notebooks-on-the-internet&#34;&gt;Notebooks on the internet&lt;/h2&gt;&#xA;&lt;p&gt;Keep lightweight notes online so they are easy to search, link, and sync between machines.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Reminder how to start hugo</title>
       <link>http://localhost:1313/notebook/computing/start_hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/start_hugo/</guid>
-      <description>&lt;p&gt;Simply type &amp;lsquo;hugo server&amp;rsquo; in the command window&lt;/p&gt;</description>
+      <description>&lt;p&gt;This reminder now lives on the consolidated quick tips page: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#starting-hugo&#34;&gt;/notebook/computing/quick_tips/#starting-hugo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simple Web App Development Tech Stack</title>
@@ -91,7 +91,7 @@
       <link>http://localhost:1313/notebook/philosophy/truths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/philosophy/truths/</guid>
-      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Type of Truth&lt;/th&gt;&#xA;          &lt;th&gt;Definition&lt;/th&gt;&#xA;          &lt;th&gt;Example&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Analytic&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;True by virtue of meanings; the predicate is contained in the subject&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;All bachelors are unmarried&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Synthetic&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;True or false depending on how the world is; not just by meaning&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;The cat is on the mat&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;A priori&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Knowable independently of experience&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;All triangles have three sides&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;A posteriori&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Knowable only through experience&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;Water boils at 100°C at sea level&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Necessary&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;True in all possible worlds&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;2 + 2 = 4&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Contingent&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;True in this world, but could have been otherwise&lt;/td&gt;&#xA;          &lt;td&gt;&amp;ldquo;The Eiffel Tower is in Paris&amp;rdquo;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+      <description>&lt;table class=&#34;truths-table&#34;&gt;&#xA;  &lt;thead&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;th&gt;Type of Truth&lt;/th&gt;&#xA;      &lt;th&gt;Definition&lt;/th&gt;&#xA;      &lt;th&gt;Example&lt;/th&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;&lt;strong&gt;Analytic&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;td&gt;True by virtue of meanings; the predicate is contained in the subject&lt;/td&gt;&#xA;      &lt;td&gt;&#34;All bachelors are unmarried&#34;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;&lt;strong&gt;Synthetic&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;td&gt;True or false depending on how the world is; not just by meaning&lt;/td&gt;&#xA;      &lt;td&gt;&#34;The cat is on the mat&#34;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;&lt;strong&gt;A priori&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;td&gt;Knowable independently of experience&lt;/td&gt;&#xA;      &lt;td&gt;&#34;All triangles have three sides&#34;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;&lt;strong&gt;A posteriori&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;td&gt;Knowable only through experience&lt;/td&gt;&#xA;      &lt;td&gt;&#34;Water boils at 100°C at sea level&#34;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;&lt;strong&gt;Necessary&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;td&gt;True in all possible worlds&lt;/td&gt;&#xA;      &lt;td&gt;&#34;2 + 2 = 4&#34;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;    &lt;tr&gt;&#xA;      &lt;td&gt;&lt;strong&gt;Contingent&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;td&gt;True in this world, but could have been otherwise&lt;/td&gt;&#xA;      &lt;td&gt;&#34;The Eiffel Tower is in Paris&#34;&lt;/td&gt;&#xA;    &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>Using vim with Markdown</title>

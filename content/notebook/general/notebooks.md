@@ -3,7 +3,4 @@ title: "Notebooks on the internet"
 tags: [internet]
 ---
 
-It might be useful to keep notebook on the internet. 
-
-
-
+This thought now sits with other quick tips: [/notebook/computing/quick_tips/#notebooks-on-the-internet](/notebook/computing/quick_tips/#notebooks-on-the-internet).

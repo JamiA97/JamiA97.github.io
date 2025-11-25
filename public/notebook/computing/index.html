@@ -73,11 +73,13 @@
             
 		        <a href='http://localhost:1313/' class='active'>/home</a>
             
-		        <a href='http://localhost:1313/edna/' class=''>EDNA</a>
+		        <a href='http://localhost:1313/edna/' class=''>/edna</a>
             
 		        <a href='http://localhost:1313/blog/' class=''>/blog</a>
             
 		        <a href='http://localhost:1313/notebook/' class='active'>/notebook</a>
+            
+		        <a href='http://localhost:1313/about/' class=''>/about</a>
             
         
 	</nav>
@@ -86,35 +88,70 @@
 <main>
         <article>
 
-      
-      <br>
-          
-              <div class=post>
-                   <h3><a href="http://localhost:1313/notebook/computing/using_vim/"> Using vim with Markdown </a></h3>
-                   <span class=post-description>  </span>
-              </div>
-          
-              <div class=post>
-                   <h3><a href="http://localhost:1313/notebook/computing/simple_web_app_git_setup_guide/"> Simple Web App Development Tech Stack </a></h3>
-                   <span class=post-description>  </span>
-              </div>
-          
-              <div class=post>
-                   <h3><a href="http://localhost:1313/notebook/computing/start_hugo/"> Reminder how to start hugo </a></h3>
-                   <span class=post-description>  </span>
-              </div>
-          
-              <div class=post>
-                   <h3><a href="http://localhost:1313/notebook/computing/update_website/"> How to update the site from git </a></h3>
-                   <span class=post-description>  </span>
-              </div>
-          
-              <div class=post>
-                   <h3><a href="http://localhost:1313/notebook/computing/google_cache/"> How to refresh browser cache </a></h3>
-                   <span class=post-description>  </span>
-              </div>
-          
-       
+  
+
+  <div class="notebook-search">
+    <label class="sr-only" for="notebook-search">Filter notes</label>
+    <input id="notebook-search" type="text" placeholder="Filter notes…" aria-label="Filter notes">
+  </div>
+
+  <ul class="notebook-list">
+    
+      <li data-title="how to refresh browser cache" data-tags="internet">
+        <a href="http://localhost:1313/notebook/computing/google_cache/">How to refresh browser cache</a>
+        
+      </li>
+    
+      <li data-title="how to update the site from git" data-tags="internet">
+        <a href="http://localhost:1313/notebook/computing/update_website/">How to update the site from git</a>
+        
+      </li>
+    
+      <li data-title="quick tips (commands i forget)" data-tags="computing">
+        <a href="http://localhost:1313/notebook/computing/quick_tips/">Quick Tips (Commands I Forget)</a>
+        
+      </li>
+    
+      <li data-title="reminder how to start hugo" data-tags="internet">
+        <a href="http://localhost:1313/notebook/computing/start_hugo/">Reminder how to start hugo</a>
+        
+      </li>
+    
+      <li data-title="simple web app development tech stack" data-tags="internet">
+        <a href="http://localhost:1313/notebook/computing/simple_web_app_git_setup_guide/">Simple Web App Development Tech Stack</a>
+        
+      </li>
+    
+      <li data-title="using vim with markdown" data-tags="internet">
+        <a href="http://localhost:1313/notebook/computing/using_vim/">Using vim with Markdown</a>
+        
+      </li>
+    
+  </ul>
+
+  <script>
+    (function() {
+      var search = document.getElementById('notebook-search');
+      if (!search) {
+        return;
+      }
+
+      var items = document.querySelectorAll('.notebook-list li');
+
+      function filterNotes(query) {
+        items.forEach(function(item) {
+          var title = item.dataset.title || '';
+          var tags = item.dataset.tags || '';
+          var match = !query || title.indexOf(query) !== -1 || tags.indexOf(query) !== -1;
+          item.style.display = match ? '' : 'none';
+        });
+      }
+
+      search.addEventListener('input', function(event) {
+        filterNotes(event.target.value.toLowerCase());
+      });
+    })();
+  </script>
 
         </article>      
 </main>

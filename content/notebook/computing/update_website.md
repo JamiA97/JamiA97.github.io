@@ -3,11 +3,4 @@ title: "How to update the site from git"
 tags: [internet]
 ---
 
-git add .  
-
-git commit -m "Some text"  
-
-git push origin master  
-
-
- 
+These git commands are now collected under quick tips: [/notebook/computing/quick_tips/#updating-the-site-from-git](/notebook/computing/quick_tips/#updating-the-site-from-git).

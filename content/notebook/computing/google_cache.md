@@ -5,4 +5,4 @@ tags: [internet]
 ---
 Sometimes you need to clear the google cache: 
 
-Press ctrl+F5
+Find the current note here: [/notebook/computing/quick_tips/#refreshing-browser-cache](/notebook/computing/quick_tips/#refreshing-browser-cache).

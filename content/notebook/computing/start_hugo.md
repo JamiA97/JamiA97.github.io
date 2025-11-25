@@ -3,7 +3,7 @@ title: "Reminder how to start hugo"
 tags: [internet]
 ---
 
-Simply type 'hugo server' in the command window
+This reminder now lives on the consolidated quick tips page: [/notebook/computing/quick_tips/#starting-hugo](/notebook/computing/quick_tips/#starting-hugo).
 
 
  

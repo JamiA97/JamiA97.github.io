@@ -7,15 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>No copyright.</copyright>
-    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Post</title>
-      <link>http://localhost:1313/blog/jamie_first_post/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/jamie_first_post/</guid>
-      <description>&lt;h2 id=&#34;a-post&#34;&gt;A Post&lt;/h2&gt;&#xA;&lt;p&gt;Just testing.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>An Essay</title>
       <link>http://localhost:1313/essays/an_essay/</link>
@@ -28,28 +20,28 @@
       <link>http://localhost:1313/notebook/computing/google_cache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/google_cache/</guid>
-      <description>&lt;p&gt;Sometimes you need to clear the google cache:&lt;/p&gt;&#xA;&lt;p&gt;Press ctrl+F5&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sometimes you need to clear the google cache:&lt;/p&gt;&#xA;&lt;p&gt;Find the current note here: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#refreshing-browser-cache&#34;&gt;/notebook/computing/quick_tips/#refreshing-browser-cache&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to update the site from git</title>
       <link>http://localhost:1313/notebook/computing/update_website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/update_website/</guid>
-      <description>&lt;p&gt;git add .&lt;/p&gt;&#xA;&lt;p&gt;git commit -m &amp;ldquo;Some text&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;git push origin master&lt;/p&gt;</description>
+      <description>&lt;p&gt;These git commands are now collected under quick tips: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#updating-the-site-from-git&#34;&gt;/notebook/computing/quick_tips/#updating-the-site-from-git&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Notebooks on the internet</title>
       <link>http://localhost:1313/notebook/general/notebooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/general/notebooks/</guid>
-      <description>&lt;p&gt;It might be useful to keep notebook on the internet.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This thought now sits with other quick tips: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#notebooks-on-the-internet&#34;&gt;/notebook/computing/quick_tips/#notebooks-on-the-internet&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reminder how to start hugo</title>
       <link>http://localhost:1313/notebook/computing/start_hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notebook/computing/start_hugo/</guid>
-      <description>&lt;p&gt;Simply type &amp;lsquo;hugo server&amp;rsquo; in the command window&lt;/p&gt;</description>
+      <description>&lt;p&gt;This reminder now lives on the consolidated quick tips page: &lt;a href=&#34;http://localhost:1313/notebook/computing/quick_tips/#starting-hugo&#34;&gt;/notebook/computing/quick_tips/#starting-hugo&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simple Web App Development Tech Stack</title>

@@ -73,11 +73,13 @@
             
 		        <a href='http://localhost:1313/' class='active'>/home</a>
             
-		        <a href='http://localhost:1313/edna/' class=''>EDNA</a>
+		        <a href='http://localhost:1313/edna/' class=''>/edna</a>
             
 		        <a href='http://localhost:1313/blog/' class=''>/blog</a>
             
 		        <a href='http://localhost:1313/notebook/' class='active'>/notebook</a>
+            
+		        <a href='http://localhost:1313/about/' class=''>/about</a>
             
         
 	</nav>
@@ -86,15 +88,45 @@
 <main>
         <article>
 
-      
-      <br>
-          
-              <div class=post>
-                   <h3><a href="http://localhost:1313/notebook/general/notebooks/"> Notebooks on the internet </a></h3>
-                   <span class=post-description>  </span>
-              </div>
-          
-       
+  
+
+  <div class="notebook-search">
+    <label class="sr-only" for="notebook-search">Filter notes</label>
+    <input id="notebook-search" type="text" placeholder="Filter notes…" aria-label="Filter notes">
+  </div>
+
+  <ul class="notebook-list">
+    
+      <li data-title="notebooks on the internet" data-tags="internet">
+        <a href="http://localhost:1313/notebook/general/notebooks/">Notebooks on the internet</a>
+        
+      </li>
+    
+  </ul>
+
+  <script>
+    (function() {
+      var search = document.getElementById('notebook-search');
+      if (!search) {
+        return;
+      }
+
+      var items = document.querySelectorAll('.notebook-list li');
+
+      function filterNotes(query) {
+        items.forEach(function(item) {
+          var title = item.dataset.title || '';
+          var tags = item.dataset.tags || '';
+          var match = !query || title.indexOf(query) !== -1 || tags.indexOf(query) !== -1;
+          item.style.display = match ? '' : 'none';
+        });
+      }
+
+      search.addEventListener('input', function(event) {
+        filterNotes(event.target.value.toLowerCase());
+      });
+    })();
+  </script>
 
         </article>      
 </main>

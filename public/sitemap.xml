@@ -8,20 +8,17 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/jamie_first_post/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/internet/</loc>
-    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/essays/an_essay/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/colophon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/computing/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/computing/</loc>
   </url><url>
@@ -34,6 +31,8 @@
     <loc>http://localhost:1313/notebook/computing/google_cache/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/computing/update_website/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/internet/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/mathematics/</loc>
   </url><url>
@@ -50,6 +49,8 @@
     <loc>http://localhost:1313/tags/probability/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/mathematics/bayes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/notebook/computing/quick_tips/</loc>
   </url><url>
     <loc>http://localhost:1313/notebook/computing/start_hugo/</loc>
   </url><url>

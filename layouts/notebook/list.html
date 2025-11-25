@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+  {{ if .Content }}
+    {{ .Content }}
+  {{ end }}
+
+  <div class="notebook-search">
+    <label class="sr-only" for="notebook-search">Filter notes</label>
+    <input id="notebook-search" type="text" placeholder="Filter notes…" aria-label="Filter notes">
+  </div>
+
+  <ul class="notebook-list">
+    {{ range .Pages.ByTitle }}
+      <li data-title="{{ lower .Title }}" data-tags="{{ with .Params.tags }}{{ lower (delimit . " ") }}{{ end }}">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.description }}
+          <span class="note-description">{{ . }}</span>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+
+  <script>
+    (function() {
+      var search = document.getElementById('notebook-search');
+      if (!search) {
+        return;
+      }
+
+      var items = document.querySelectorAll('.notebook-list li');
+
+      function filterNotes(query) {
+        items.forEach(function(item) {
+          var title = item.dataset.title || '';
+          var tags = item.dataset.tags || '';
+          var match = !query || title.indexOf(query) !== -1 || tags.indexOf(query) !== -1;
+          item.style.display = match ? '' : 'none';
+        });
+      }
+
+      search.addEventListener('input', function(event) {
+        filterNotes(event.target.value.toLowerCase());
+      });
+    })();
+  </script>
+{{ end }}
