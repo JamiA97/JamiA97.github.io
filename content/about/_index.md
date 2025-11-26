@@ -19,4 +19,4 @@ This site collects experiments and ideas:
 
 - Email: [you@example.com](mailto:you@example.com) <!-- TODO: Update with the right address -->
 - GitHub: [github.com/JamiA97](https://github.com/JamiA97)
-- EDNA repo: [github.com/JamiA97/eng-dna](https://github.com/JamiA97/eng-dna)
+- EDNA repo: [github.com/JamiA97/edna](https://github.com/JamiA97/edna)

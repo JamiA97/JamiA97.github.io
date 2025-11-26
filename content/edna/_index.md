@@ -199,7 +199,7 @@ edna rescan ./workspace
 
 ## Learn more
 
-- Source: [eng-dna on GitHub](https://github.com/JamiA97/eng-dna)  
+- Source: [edna on GitHub](https://github.com/JamiA97/edna)  
 - Design notes: [`Background.md`](https://github.com/JamiA97/eng-dna/blob/main/Background.md) and [`USAGE.md`](https://github.com/JamiA97/eng-dna/blob/main/USAGE.md)
 
 [Back to top](#contents)
